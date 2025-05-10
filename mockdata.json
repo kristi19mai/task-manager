@@ -1,0 +1,677 @@
+[
+  {
+    "task": "einkaufen",
+    "description": "engage one-to-one portals",
+    "important": true,
+    "createdAt": "2024-05-13T02:19:08Z",
+    "dueDate": "2027-01-20T15:46:14Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "kochen",
+    "description": "facilitate efficient partnerships",
+    "important": true,
+    "createdAt": "2024-08-26T11:07:44Z",
+    "dueDate": "2027-02-17T16:38:25Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "einkaufen",
+    "description": "engage out-of-the-box web-readiness",
+    "important": true,
+    "createdAt": "2024-08-19T03:23:14Z",
+    "dueDate": "2025-10-17T04:41:47Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "orchestrate sticky infomediaries",
+    "important": false,
+    "createdAt": "2024-07-13T19:31:10Z",
+    "dueDate": "2026-07-26T13:49:30Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "geplant"
+  },
+  {
+    "task": "sport machen",
+    "description": "target 24/365 channels",
+    "important": true,
+    "createdAt": "2024-10-15T05:24:37Z",
+    "dueDate": "2027-02-20T10:20:12Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "buch lesen",
+    "description": "benchmark enterprise web services",
+    "important": false,
+    "createdAt": "2024-07-11T07:23:29Z",
+    "dueDate": "2026-03-03T07:22:14Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "maximize sticky communities",
+    "important": false,
+    "createdAt": "2024-09-24T10:41:45Z",
+    "dueDate": "2026-09-24T14:16:51Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "geplant"
+  },
+  {
+    "task": "sport machen",
+    "description": "disintermediate viral infrastructures",
+    "important": true,
+    "createdAt": "2024-09-07T22:11:17Z",
+    "dueDate": "2025-10-01T00:06:13Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "wohnung putzen",
+    "description": "harness 24/7 experiences",
+    "important": true,
+    "createdAt": "2024-06-18T20:30:10Z",
+    "dueDate": "2027-02-27T07:14:01Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "transform holistic supply-chains",
+    "important": true,
+    "createdAt": "2024-06-16T18:47:49Z",
+    "dueDate": "2025-07-23T16:57:10Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "20 minuten joggen",
+    "description": "mesh innovative functionalities",
+    "important": true,
+    "createdAt": "2024-05-01T13:08:49Z",
+    "dueDate": "2025-10-21T17:30:41Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "expedite leading-edge experiences",
+    "important": false,
+    "createdAt": "2025-04-11T23:50:22Z",
+    "dueDate": "2026-07-26T13:58:33Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "erledigt"
+  },
+  {
+    "task": "waschen",
+    "description": "extend cutting-edge e-business",
+    "important": false,
+    "createdAt": "2025-01-29T10:42:29Z",
+    "dueDate": "2025-05-27T00:58:52Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "erledigt"
+  },
+  {
+    "task": "kochen",
+    "description": "extend one-to-one e-business",
+    "important": true,
+    "createdAt": "2024-05-10T22:21:36Z",
+    "dueDate": "2025-09-27T10:03:03Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "erledigt"
+  },
+  {
+    "task": "kochen",
+    "description": "empower one-to-one schemas",
+    "important": false,
+    "createdAt": "2025-01-05T19:33:19Z",
+    "dueDate": "2027-01-23T07:28:49Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "einkaufen",
+    "description": "syndicate world-class functionalities",
+    "important": false,
+    "createdAt": "2024-09-18T07:36:42Z",
+    "dueDate": "2026-10-21T09:30:07Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "sport machen",
+    "description": "e-enable plug-and-play mindshare",
+    "important": true,
+    "createdAt": "2024-05-21T14:14:54Z",
+    "dueDate": "2025-11-14T21:23:17Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "maximize dynamic experiences",
+    "important": false,
+    "createdAt": "2024-12-29T04:58:13Z",
+    "dueDate": "2026-09-22T05:15:40Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "sport machen",
+    "description": "aggregate visionary synergies",
+    "important": true,
+    "createdAt": "2024-06-01T21:12:56Z",
+    "dueDate": "2025-10-25T11:48:58Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "transform ubiquitous vortals",
+    "important": true,
+    "createdAt": "2024-06-14T15:33:25Z",
+    "dueDate": "2026-02-04T23:45:16Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "waschen",
+    "description": "aggregate distributed markets",
+    "important": true,
+    "createdAt": "2025-04-12T19:04:29Z",
+    "dueDate": "2025-06-23T07:54:26Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "wohnung putzen",
+    "description": "mesh vertical vortals",
+    "important": false,
+    "createdAt": "2024-09-02T11:31:25Z",
+    "dueDate": "2026-10-23T05:23:48Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sport machen",
+    "description": "recontextualize seamless models",
+    "important": false,
+    "createdAt": "2024-05-13T07:08:02Z",
+    "dueDate": "2025-09-24T07:51:48Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "integrate cross-media supply-chains",
+    "important": false,
+    "createdAt": "2025-01-03T03:20:05Z",
+    "dueDate": "2026-01-06T03:49:53Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "unleash frictionless web services",
+    "important": true,
+    "createdAt": "2025-03-05T10:14:53Z",
+    "dueDate": "2025-08-03T11:51:13Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "buch lesen",
+    "description": "empower compelling e-tailers",
+    "important": false,
+    "createdAt": "2024-08-16T17:31:04Z",
+    "dueDate": "2026-10-28T22:12:23Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "reinvent bricks-and-clicks synergies",
+    "important": false,
+    "createdAt": "2025-02-24T12:31:18Z",
+    "dueDate": "2026-03-24T06:15:45Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "wohnung putzen",
+    "description": "mesh holistic schemas",
+    "important": false,
+    "createdAt": "2025-03-01T23:40:46Z",
+    "dueDate": "2026-02-20T01:10:55Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "engineer 24/365 e-services",
+    "important": false,
+    "createdAt": "2024-12-12T03:11:25Z",
+    "dueDate": "2025-11-18T13:05:01Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "geplant"
+  },
+  {
+    "task": "20 minuten joggen",
+    "description": "cultivate innovative content",
+    "important": true,
+    "createdAt": "2025-02-27T04:26:24Z",
+    "dueDate": "2026-01-30T18:37:16Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "kochen",
+    "description": "utilize bleeding-edge methodologies",
+    "important": false,
+    "createdAt": "2025-04-04T17:36:07Z",
+    "dueDate": "2027-03-11T22:04:08Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "geplant"
+  },
+  {
+    "task": "einkaufen",
+    "description": "strategize virtual methodologies",
+    "important": false,
+    "createdAt": "2025-01-04T14:10:25Z",
+    "dueDate": "2026-09-02T10:58:20Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "einkaufen",
+    "description": "empower interactive markets",
+    "important": true,
+    "createdAt": "2024-10-06T15:44:54Z",
+    "dueDate": "2025-09-21T00:17:18Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "20 minuten joggen",
+    "description": "morph e-business schemas",
+    "important": false,
+    "createdAt": "2024-11-10T15:43:34Z",
+    "dueDate": "2026-09-22T09:55:50Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "repurpose intuitive communities",
+    "important": true,
+    "createdAt": "2024-10-07T14:02:30Z",
+    "dueDate": "2025-09-24T10:38:39Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "harness revolutionary bandwidth",
+    "important": false,
+    "createdAt": "2025-01-26T22:00:33Z",
+    "dueDate": "2026-04-19T12:38:59Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "kochen",
+    "description": "aggregate proactive metrics",
+    "important": true,
+    "createdAt": "2024-10-08T06:20:47Z",
+    "dueDate": "2026-01-13T23:41:40Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "deploy seamless web-readiness",
+    "important": false,
+    "createdAt": "2025-03-05T22:09:54Z",
+    "dueDate": "2026-04-04T05:27:54Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "exploit 24/365 infrastructures",
+    "important": true,
+    "createdAt": "2024-06-05T21:38:10Z",
+    "dueDate": "2026-04-01T03:08:15Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "waschen",
+    "description": "envisioneer bleeding-edge functionalities",
+    "important": true,
+    "createdAt": "2024-09-11T18:32:42Z",
+    "dueDate": "2027-01-04T08:24:08Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "envisioneer user-centric interfaces",
+    "important": false,
+    "createdAt": "2025-04-17T18:06:12Z",
+    "dueDate": "2027-03-11T00:20:20Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "kochen",
+    "description": "evolve plug-and-play interfaces",
+    "important": false,
+    "createdAt": "2024-09-12T17:02:41Z",
+    "dueDate": "2026-05-12T16:34:01Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "aggregate 24/365 e-tailers",
+    "important": true,
+    "createdAt": "2024-09-30T14:07:32Z",
+    "dueDate": "2027-01-23T15:58:32Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "geplant"
+  },
+  {
+    "task": "einkaufen",
+    "description": "streamline intuitive niches",
+    "important": true,
+    "createdAt": "2025-02-26T02:29:10Z",
+    "dueDate": "2027-02-15T20:02:32Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "envisioneer proactive channels",
+    "important": false,
+    "createdAt": "2024-06-11T06:17:50Z",
+    "dueDate": "2027-04-18T21:39:04Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "erledigt"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "enable viral applications",
+    "important": true,
+    "createdAt": "2025-03-24T01:22:47Z",
+    "dueDate": "2027-03-17T05:22:46Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "geplant"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "redefine 24/365 initiatives",
+    "important": true,
+    "createdAt": "2024-09-04T00:00:29Z",
+    "dueDate": "2025-08-18T16:03:07Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sport machen",
+    "description": "aggregate frictionless methodologies",
+    "important": true,
+    "createdAt": "2025-03-31T04:40:21Z",
+    "dueDate": "2026-12-16T18:09:35Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "wohnung putzen",
+    "description": "embrace global users",
+    "important": true,
+    "createdAt": "2025-02-09T00:09:20Z",
+    "dueDate": "2025-12-26T04:00:54Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "synergize seamless eyeballs",
+    "important": false,
+    "createdAt": "2024-09-30T16:00:16Z",
+    "dueDate": "2026-01-29T21:35:10Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "geplant"
+  },
+  {
+    "task": "einkaufen",
+    "description": "expedite ubiquitous partnerships",
+    "important": false,
+    "createdAt": "2024-06-04T13:09:13Z",
+    "dueDate": "2025-08-06T03:24:43Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "einkaufen",
+    "description": "transition vertical relationships",
+    "important": true,
+    "createdAt": "2024-08-25T16:34:45Z",
+    "dueDate": "2026-12-04T01:00:29Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sport machen",
+    "description": "synergize open-source initiatives",
+    "important": false,
+    "createdAt": "2025-01-15T03:04:25Z",
+    "dueDate": "2025-09-12T08:04:09Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "erledigt"
+  },
+  {
+    "task": "sport machen",
+    "description": "optimize transparent content",
+    "important": true,
+    "createdAt": "2025-02-10T00:56:57Z",
+    "dueDate": "2025-06-18T18:14:35Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "wohnung putzen",
+    "description": "enable vertical technologies",
+    "important": true,
+    "createdAt": "2025-04-04T11:29:01Z",
+    "dueDate": "2026-08-03T02:03:56Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "waschen",
+    "description": "harness plug-and-play functionalities",
+    "important": false,
+    "createdAt": "2024-09-16T10:29:48Z",
+    "dueDate": "2027-01-03T17:40:28Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "buch lesen",
+    "description": "streamline scalable relationships",
+    "important": false,
+    "createdAt": "2024-12-28T10:08:33Z",
+    "dueDate": "2025-10-09T10:11:17Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "utilize rich interfaces",
+    "important": false,
+    "createdAt": "2025-03-31T18:27:55Z",
+    "dueDate": "2025-10-18T18:02:53Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "waschen",
+    "description": "evolve next-generation niches",
+    "important": true,
+    "createdAt": "2025-01-20T18:32:18Z",
+    "dueDate": "2026-03-20T13:08:56Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "wohnung putzen",
+    "description": "e-enable efficient e-business",
+    "important": false,
+    "createdAt": "2024-05-26T17:59:31Z",
+    "dueDate": "2026-04-19T03:28:22Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "sport machen",
+    "description": "deliver B2C systems",
+    "important": false,
+    "createdAt": "2024-11-28T15:04:13Z",
+    "dueDate": "2025-05-11T08:41:31Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "geplant"
+  },
+  {
+    "task": "einkaufen",
+    "description": "visualize open-source technologies",
+    "important": true,
+    "createdAt": "2024-09-28T21:01:57Z",
+    "dueDate": "2025-11-07T22:04:48Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "leverage dynamic relationships",
+    "important": false,
+    "createdAt": "2024-05-18T22:01:11Z",
+    "dueDate": "2025-10-06T04:54:51Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "expedite extensible markets",
+    "important": true,
+    "createdAt": "2024-08-01T02:25:32Z",
+    "dueDate": "2026-11-25T18:51:40Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "spazierengehen",
+    "description": "innovate magnetic e-markets",
+    "important": true,
+    "createdAt": "2025-01-08T11:52:31Z",
+    "dueDate": "2027-03-15T00:01:35Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "sport machen",
+    "description": "mesh 24/7 paradigms",
+    "important": true,
+    "createdAt": "2025-04-26T18:53:56Z",
+    "dueDate": "2026-05-03T23:11:02Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "erledigt"
+  },
+  {
+    "task": "waschen",
+    "description": "engage collaborative synergies",
+    "important": true,
+    "createdAt": "2024-09-05T22:09:30Z",
+    "dueDate": "2026-07-11T01:57:39Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "engineer extensible models",
+    "important": false,
+    "createdAt": "2025-03-24T23:57:48Z",
+    "dueDate": "2026-07-24T00:32:09Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "in bearbeitung"
+  },
+  {
+    "task": "einkaufen",
+    "description": "embrace cross-media schemas",
+    "important": true,
+    "createdAt": "2024-09-02T11:21:08Z",
+    "dueDate": "2026-11-01T02:26:17Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "buch lesen",
+    "description": "morph virtual schemas",
+    "important": false,
+    "createdAt": "2024-05-28T23:40:37Z",
+    "dueDate": "2025-06-25T12:57:40Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "enhance next-generation convergence",
+    "important": false,
+    "createdAt": "2024-06-12T09:46:03Z",
+    "dueDate": "2025-09-08T18:21:51Z",
+    "createdBy": "680bca6dd1d28675338f67a8",
+    "status": "geplant"
+  },
+  {
+    "task": "sprache lernen",
+    "description": "strategize customized users",
+    "important": false,
+    "createdAt": "2024-12-01T12:49:57Z",
+    "dueDate": "2025-10-06T20:19:10Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "erledigt"
+  },
+  {
+    "task": "buch lesen",
+    "description": "morph user-centric markets",
+    "important": false,
+    "createdAt": "2025-01-10T07:26:01Z",
+    "dueDate": "2025-10-07T10:58:36Z",
+    "createdBy": "67bae134113972e75a84edf4",
+    "status": "geplant"
+  },
+  {
+    "task": "kochen",
+    "description": "visualize back-end ROI",
+    "important": true,
+    "createdAt": "2025-03-22T13:03:59Z",
+    "dueDate": "2026-04-18T07:32:54Z",
+    "createdBy": "67badf44113972e75a84edf0",
+    "status": "erledigt"
+  },
+  {
+    "task": "20 minuten joggen",
+    "description": "leverage transparent communities",
+    "important": true,
+    "createdAt": "2024-09-05T05:38:05Z",
+    "dueDate": "2025-12-02T12:53:01Z",
+    "createdBy": "680bca40231d2487e5d15a20",
+    "status": "geplant"
+  }
+]
