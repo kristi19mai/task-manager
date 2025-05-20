@@ -1,21 +1,42 @@
 import { UnauthenticatedError, UnauthorizedError } from "../errors/index.js";
-import { isTokenValid } from "../utils/index.js";
+import Token from "../models/Token.js";
+import { attachCookie, isTokenValid } from "../utils/index.js";
 
 const authentication = async (req, res, next) => {
-  const token = req.signedCookies.token;
-  if (!token) {
-    throw new UnauthenticatedError(
-      "Authentifizierung ungültig, Ungültige Anmeldedaten"
-    );
-  }
+  const { accessToken, refreshToken } = req.signedCookies;
+
   try {
-    const { name, userId, role } = isTokenValid({ token });
-    req.user = { name, userId, role };
+    if (accessToken) {
+      const payload = isTokenValid(accessToken);
+      req.user = payload.user;
+      console.log("access token:" + payload.user);
+
+      return next();
+    }
+    const payload = isTokenValid(refreshToken);
+   
+
+    console.log(payload.user, payload.refreshTokenCrypto);
+
+    const existingToken = await Token.findOne({
+      user: payload.user.userId,
+      refreshToken: payload.refreshTokenCrypto,
+    });
+    if (!existingToken || !existingToken?.isValid) {
+      throw new UnauthenticatedError("Authentifizierung ungültig");
+    }
+    req.user = payload.user;
+    attachCookie({
+      res,
+      user: payload.user,
+      refreshTokenCrypto: existingToken.refreshToken,
+    });
     next();
   } catch (error) {
     throw new UnauthenticatedError("Authentifizierung ungültig");
   }
 };
+
 const authorizePermissions = (...rest) => {
   return async function (req, res, next) {
     if (!rest.includes(req.user.role)) {

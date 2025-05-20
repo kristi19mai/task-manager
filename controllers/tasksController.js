@@ -14,7 +14,7 @@ const getAllTasks = async (req, res) => {
     sort,
     fields,
   } = req.query;
-  const queryObject = { createdBy: req.user.userID };
+  const queryObject = { createdBy: req.user.userId };
 
   if (important) {
     // "important"="true" to get all important tasks
@@ -67,44 +67,44 @@ const getAllTasks = async (req, res) => {
 };
 
 const createTask = async (req, res) => {
-  req.body.createdBy = req.user.userID;
+  req.body.createdBy = req.user.userId;
   const task = await Task.create(req.body);
   res.status(StatusCodes.CREATED).json({ task });
 };
 
 const getOneTask = async (req, res) => {
   const {
-    params: { id: taskID },
-    user: { userID },
+    params: { id: taskId },
+    user: { userId },
   } = req;
-  const task = await Task.findOne({ _id: taskID, createdBy: userID });
+  const task = await Task.findOne({ _id: taskId, createdBy: userId });
   if (!task) {
-    throw new NotFoundError(`keines Todo with id ${taskID}`);
+    throw new NotFoundError(`keines Todo with id ${taskId}`);
   }
   res.status(StatusCodes.OK).json({ task });
 };
 
 const deleteTask = async (req, res) => {
   const {
-    params: { id: taskID },
-    user: { userID },
+    params: { id: taskId },
+    user: { userId },
   } = req;
 
-  const task = await Task.findByIdAndDelete({ _id: taskID, createdBy: userID });
+  const task = await Task.findByIdAndDelete({ _id: taskId, createdBy: userId });
   if (!task) {
-    throw new NotFoundError(`keines Todo with id ${taskID}`);
+    throw new NotFoundError(`keines Todo with id ${taskId}`);
   }
   res.status(StatusCodes.OK).send();
 };
 
 const updateTask = async (req, res) => {
   const {
-    params: { id: taskID },
-    user: { userID },
+    params: { id: taskId },
+    user: { userId },
   } = req;
 
   const task = await Task.findByIdAndUpdate(
-    { _id: taskID, createdBy: userID },
+    { _id: taskId, createdBy: userId },
     req.body,
     {
       new: true,
@@ -112,7 +112,7 @@ const updateTask = async (req, res) => {
     }
   );
   if (!task) {
-    throw new NotFoundError(`keines Todo with id ${taskID}`);
+    throw new NotFoundError(`keines Todo with id ${taskId}`);
   }
   res.status(StatusCodes.OK).json({ task });
 };

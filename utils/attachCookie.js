@@ -1,11 +1,21 @@
 import { createJWT } from "./index.js";
 
-const attachCookie = ({ res, user }) => {
-  const token = createJWT({ payload: user });
+const attachCookie = ({ res, user, refreshTokenCrypto }) => {
+  const accessTokenJWT = createJWT({ payload: { user } });
+  const refreshTokenJWT = createJWT({ payload: { user, refreshTokenCrypto } });
+
   const oneDay = 1000 * 60 * 60 * 24;
-  res.cookie("token", token, {
+  const twoMonths = oneDay * 60;
+  res.cookie("accessToken", accessTokenJWT, {
     httpOnly: true,
-    expires: new Date(Date.now() + oneDay),
+    signed: true,
+    secure: process.env.NODE_ENV === "prodaction",
+    maxAge: 1000,
+    //expires: new Date(Date.now() + oneDay),
+  });
+  res.cookie("refreshToken", refreshTokenJWT, {
+    httpOnly: true,
+    expires: new Date(Date.now() + twoMonths),
     signed: true,
     secure: process.env.NODE_ENV === "prodaction",
   });

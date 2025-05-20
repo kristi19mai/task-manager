@@ -27,6 +27,19 @@ const UserSchema = new mongoose.Schema({
     enum: ["admin", "user"],
     default: "user",
   },
+  verificationToken: {
+    type: String,
+    default: "",
+  },
+  isVerified: {
+    type: Boolean,
+    default: false,
+  },
+  verified: {
+    type: Date,
+  },
+  passwordToken: { type: String },
+  passwordTokenExpirationDate: { type: Date },
 });
 
 UserSchema.pre("save", async function () {
@@ -34,8 +47,6 @@ UserSchema.pre("save", async function () {
   const salt = await bcrypt.genSalt(10);
   this.password = await bcrypt.hash(this.password, salt);
 });
-
-
 
 UserSchema.methods.comparePassword = async function (password) {
   const isMatch = await bcrypt.compare(password, this.password);
