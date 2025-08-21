@@ -3,9 +3,10 @@ import moment from "moment";
 import "moment/locale/de.js";
 
 const { Schema } = mongoose;
-
+ 
 const TaskSchema = new Schema(
   {
+    
     task: {
       type: String,
       required: [true, "Bitte geben Sie den Namen des Todos ein"],

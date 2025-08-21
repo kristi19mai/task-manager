@@ -1,5 +1,5 @@
 import { BadRequestError, NotFoundError } from "../errors/index.js";
-import Task from "../models/Task.js";
+import Task from "../models/Tasks.js";
 import { StatusCodes } from "http-status-codes";
 import path from "path";
 

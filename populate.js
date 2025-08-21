@@ -1,6 +1,6 @@
 import "dotenv/config";
 import connectDB from "./db/connect.js";
-import Task from "./models/Task.js";
+import Task from "./models/Tasks.js";
 import data from "./mockdata.json" with { type: "json"};
 
 const start = async () => {
