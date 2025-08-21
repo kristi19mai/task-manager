@@ -8,9 +8,7 @@ const getAllTasks = async (req, res) => {
     important,
     status,
     task,
-    dueDateYear,
-    dueDateMonth,
-    dueDateDay,
+    dueDate,
     sort,
     fields,
   } = req.query;
