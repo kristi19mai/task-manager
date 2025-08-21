@@ -4,9 +4,11 @@ const __dirname = path.resolve();
 import { BadRequestError } from "../errors/index.js";
 import { v2 as cloudinary } from "cloudinary";
 import * as fs from "fs";
+import { v4 as uuidv4 } from "uuid";
+import sanitize from "sanitize-filename";
 
 const uploadFileLocal = async (req, res) => {
-  if (!req.files) {
+  if (!req.files.file) {
     throw new BadRequestError("Keine Datei hochgeladen");
   }
   const file = req.files.file;
@@ -20,11 +22,22 @@ const uploadFileLocal = async (req, res) => {
     );
   }
 
-  const filePath = path.join(__dirname, "./public/uploads/" + `${file.name}`);
-  console.log(filePath);
+  const uniqueSuffix = uuidv4();
+  const fileExtension = path.extname(file.name);
+  const storedFilename = `${uniqueSuffix}${fileExtension}`;
+
+  const filePath = path.join(
+    __dirname,
+    "./public/uploads/" + `${storedFilename}`
+  );
+
   await file.mv(filePath);
 
-  return res.status(StatusCodes.OK).json({ src: `/uploads/${file.name}` });
+  return res.status(StatusCodes.OK).json({
+    originalFilename: sanitize(file.name),
+    storedFilename: storedFilename,
+    filePath: `/uploads/${storedFilename}`,
+  });
 };
 
 const uploadFile = async (req, res) => {

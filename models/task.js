@@ -9,18 +9,18 @@ const TaskSchema = new Schema(
     task: {
       type: String,
       required: [true, "Bitte geben Sie den Namen des Todos ein"],
-      minLength: 3,
+      minLength: 1,
       maxLength: [
-        30,
-        "Die Länge des Todonamens darf 30 Zeichen nicht überschreiten.",
+        150,
+        "Die Länge des Todonamens darf 150 Zeichen nicht überschreiten.",
       ],
       trim: [true, "Bitte geben Sie den Namen des Todos ein"],
     },
     description: {
       type: String,
       maxLength: [
-        200,
-        "Die Länge des Todonamens darf 30 Zeichen nicht überschreiten.",
+        210,
+        "Die Länge der Notizen darf 210 Zeichen nicht überschreiten.",
       ],
       trim: true,
       default: "",
@@ -29,40 +29,19 @@ const TaskSchema = new Schema(
     status: {
       type: String,
       default: "geplant",
-      enum: ["geplant", "in bearbeitung", "erledigt"],
+      enum: ["geplant", "erledigt"],
     },
-    file: { type: String, default: "" },
-    dueDate: { type: Date, default: new Date() },
-    dueDateYear: { type: Number },
-    dueDateMonth: { type: String },
-    dueDateDay: { type: Number },
-    createdBy: {
-      type: mongoose.Types.ObjectId,
-      ref: "User",
-      required: [true, "bitte geben Sie Benutzer ID ein"],
-    },
+    storedFilename: { type: String, default: "" },
+    originalFilename: { type: String, default: "" },
+    dueDate: { type: Date },
+
+    // createdBy: {
+    //   type: mongoose.Types.ObjectId,
+    //   ref: "User",
+    //   required: [true, "bitte geben Sie Benutzer ID ein"],
+    // },
   },
   { timestamps: true }
 );
-
-TaskSchema.pre("save", function getDateInfo() {
-  const months = [
-    " Januar",
-    "Februar",
-    "März",
-    "April",
-    "Mai",
-    "Juni",
-    "Juli",
-    "August",
-    "September",
-    "Oktober",
-    "November",
-    "Dezember",
-  ];
-  this.dueDateYear = this.dueDate.getFullYear();
-  this.dueDateMonth = months[this.dueDate.getMonth()];
-  this.dueDateDay = this.dueDate.getDate();
-});
 
 export default mongoose.model("Task", TaskSchema);

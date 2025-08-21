@@ -12,7 +12,7 @@ import authRouter from "./routers/authRouter.js";
 import userRouter from "./routers/userRouter.js";
 
 // middleware
-import  { authentication } from "./middleware/authentication.js";
+import { authentication } from "./middleware/authentication.js";
 import notFoundMiddleware from "./middleware/not-found.js";
 import errorHandlerMiddleware from "./middleware/error-handler.js";
 
@@ -23,7 +23,7 @@ import { xss } from "express-xss-sanitizer";
 import { rateLimit } from "express-rate-limit";
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 // rate limiting
 app.use(
@@ -33,6 +33,7 @@ app.use(
   })
 );
 app.use(express.static("./public"));
+// app.use("/uploads", express.static('uploads'))
 app.use(express.json());
 app.use(cookieParser(process.env.JWT_SECRET));
 app.use(express.urlencoded({ extended: false }));
@@ -46,7 +47,9 @@ app.use(helmet());
 app.use(cors());
 
 // file upload
-app.use(fileUpload({ useTempFiles: true }));
+app.use(fileUpload());
+//for cloudinary add { useTempFiles: true } 
+
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.CLOUD_API_KEY,
@@ -56,7 +59,8 @@ cloudinary.config({
 
 app.use("/api/v1/auth", authRouter);
 
-app.use("/api/v1/tasks", authentication, tasksRouter);
+app.use("/api/v1/tasks", tasksRouter);
+// add authentication middleware before tasksRouter
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1", (req, res) => {
   console.log(req.signedCookies);

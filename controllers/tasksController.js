@@ -14,7 +14,8 @@ const getAllTasks = async (req, res) => {
     sort,
     fields,
   } = req.query;
-  const queryObject = { createdBy: req.user.userId };
+  // const queryObject = { createdBy: req.user.userId };
+  const queryObject = {};
 
   if (important) {
     // "important"="true" to get all important tasks
@@ -58,7 +59,7 @@ const getAllTasks = async (req, res) => {
 
   // pagination
   const page = parseInt(req.query.page) || 1;
-  const limit = parseInt(req.query.limit) || 10;
+  const limit = parseInt(req.query.limit) || 80;
   const skip = (page - 1) * limit;
   result = result.skip(skip).limit(limit);
 
@@ -67,7 +68,7 @@ const getAllTasks = async (req, res) => {
 };
 
 const createTask = async (req, res) => {
-  req.body.createdBy = req.user.userId;
+  // req.body.createdBy = req.user.userId;
   const task = await Task.create(req.body);
   res.status(StatusCodes.CREATED).json({ task });
 };
@@ -75,9 +76,10 @@ const createTask = async (req, res) => {
 const getOneTask = async (req, res) => {
   const {
     params: { id: taskId },
-    user: { userId },
   } = req;
-  const task = await Task.findOne({ _id: taskId, createdBy: userId });
+  // add user:{userId}
+  const task = await Task.findOne({ _id: taskId });
+  // add createdBy: userId
   if (!task) {
     throw new NotFoundError(`keines Todo with id ${taskId}`);
   }
@@ -87,10 +89,11 @@ const getOneTask = async (req, res) => {
 const deleteTask = async (req, res) => {
   const {
     params: { id: taskId },
-    user: { userId },
   } = req;
+  //add user: { userId },
 
-  const task = await Task.findByIdAndDelete({ _id: taskId, createdBy: userId });
+  const task = await Task.findByIdAndDelete({ _id: taskId });
+  // add createdBy: userId
   if (!task) {
     throw new NotFoundError(`keines Todo with id ${taskId}`);
   }
@@ -100,17 +103,13 @@ const deleteTask = async (req, res) => {
 const updateTask = async (req, res) => {
   const {
     params: { id: taskId },
-    user: { userId },
   } = req;
-
-  const task = await Task.findByIdAndUpdate(
-    { _id: taskId, createdBy: userId },
-    req.body,
-    {
-      new: true,
-      runValidators: true,
-    }
-  );
+  //add user: { userId },
+  const task = await Task.findByIdAndUpdate({ _id: taskId }, req.body, {
+    new: true,
+    runValidators: true,
+  });
+  // add createdBy: userId
   if (!task) {
     throw new NotFoundError(`keines Todo with id ${taskId}`);
   }

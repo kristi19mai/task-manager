@@ -44,12 +44,13 @@ const register = async (req, res) => {
   res.status(StatusCodes.CREATED).json({
     msg: "Erfolg! Bitte überprüfen Sie Ihre E-Mail, um Ihr Konto zu bestätigen",
     // only for postman verification
-    token: verificationToken,
+    // token: verificationToken,
   });
 };
 
 const verifyEmail = async (req, res) => {
   const { email, verificationToken } = req.body;
+  console.log(email, verificationToken);
 
   const user = await User.findOne({ email });
   if (!user) {
@@ -176,7 +177,7 @@ const resetPassword = async (req, res) => {
     }
   }
   res.status(StatusCodes.OK).json({
-    msg: "„Erfolgreich! Weiterleitung zur Anmeldeseite erfolgt in Kürze.“",
+    msg: "Erfolgreich! Weiterleitung zur Anmeldeseite erfolgt in Kürze.",
   });
 };
 

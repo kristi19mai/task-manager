@@ -13,8 +13,8 @@ const router = express.Router();
 
 router.post("/register", register);
 router.post("/login", login);
-router.delete("/logout", authentication, logout);
 router.post("/verify-email", verifyEmail);
+router.delete("/logout", authentication, logout);
 router.post("/forgot-password", forgotPassword);
 router.post("/reset-password", resetPassword);
 
